@@ -1,0 +1,81 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Data Structure Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Data Structures}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Data Structure Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Esquema Struct Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Meio Struct Reference}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{6}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Pedido Struct Reference}{6}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{6}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Pedidos Struct Reference}{6}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Detailed Description}{6}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}File Documentation}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estruturas.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{7}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Estruturas.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Funcoes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c File Reference}{8}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{10}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Function Documentation}{10}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}buscaMeio()}{10}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}criarMeio()}{11}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}criarPedido()}{11}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}custoPedido()}{11}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}distribuirMeios()}{12}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}existeMeio()}{12}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}existePedido()}{12}{subsubsection.4.3.2.7}%
+\contentsline {subsubsection}{\numberline {4.3.2.8}guardarMeios()}{13}{subsubsection.4.3.2.8}%
+\contentsline {subsubsection}{\numberline {4.3.2.9}guardarPedidos()}{13}{subsubsection.4.3.2.9}%
+\contentsline {subsubsection}{\numberline {4.3.2.10}insertMeio()}{13}{subsubsection.4.3.2.10}%
+\contentsline {subsubsection}{\numberline {4.3.2.11}insertPedido()}{14}{subsubsection.4.3.2.11}%
+\contentsline {subsubsection}{\numberline {4.3.2.12}interfacePrincipal()}{14}{subsubsection.4.3.2.12}%
+\contentsline {subsubsection}{\numberline {4.3.2.13}lerMeios()}{14}{subsubsection.4.3.2.13}%
+\contentsline {subsubsection}{\numberline {4.3.2.14}lerPedidos()}{15}{subsubsection.4.3.2.14}%
+\contentsline {subsubsection}{\numberline {4.3.2.15}listarPlanoMeio()}{15}{subsubsection.4.3.2.15}%
+\contentsline {subsubsection}{\numberline {4.3.2.16}menuMeio()}{15}{subsubsection.4.3.2.16}%
+\contentsline {subsubsection}{\numberline {4.3.2.17}menuPedido()}{16}{subsubsection.4.3.2.17}%
+\contentsline {subsubsection}{\numberline {4.3.2.18}menuPrincipal()}{16}{subsubsection.4.3.2.18}%
+\contentsline {subsubsection}{\numberline {4.3.2.19}mostraMeio()}{16}{subsubsection.4.3.2.19}%
+\contentsline {subsubsection}{\numberline {4.3.2.20}mostraMeios()}{17}{subsubsection.4.3.2.20}%
+\contentsline {subsubsection}{\numberline {4.3.2.21}mostraPedido()}{17}{subsubsection.4.3.2.21}%
+\contentsline {subsubsection}{\numberline {4.3.2.22}mostraPedidos()}{17}{subsubsection.4.3.2.22}%
+\contentsline {subsubsection}{\numberline {4.3.2.23}procuraVeiculoSuficiente()}{17}{subsubsection.4.3.2.23}%
+\contentsline {subsubsection}{\numberline {4.3.2.24}removerMeio()}{18}{subsubsection.4.3.2.24}%
+\contentsline {subsubsection}{\numberline {4.3.2.25}removerPedido()}{18}{subsubsection.4.3.2.25}%
+\contentsline {subsubsection}{\numberline {4.3.2.26}verificaAutonomia()}{19}{subsubsection.4.3.2.26}%
+\contentsline {section}{\numberline {4.4}Funcoes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{19}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{20}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Function Documentation}{21}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}criarMeio()}{21}{subsubsection.4.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}criarPedido()}{21}{subsubsection.4.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.3}custoPedido()}{21}{subsubsection.4.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.4.2.4}distribuirMeios()}{22}{subsubsection.4.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.4.2.5}existeMeio()}{22}{subsubsection.4.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.4.2.6}existePedido()}{23}{subsubsection.4.4.2.6}%
+\contentsline {subsubsection}{\numberline {4.4.2.7}guardarMeios()}{23}{subsubsection.4.4.2.7}%
+\contentsline {subsubsection}{\numberline {4.4.2.8}guardarPedidos()}{23}{subsubsection.4.4.2.8}%
+\contentsline {subsubsection}{\numberline {4.4.2.9}insertMeio()}{24}{subsubsection.4.4.2.9}%
+\contentsline {subsubsection}{\numberline {4.4.2.10}insertPedido()}{24}{subsubsection.4.4.2.10}%
+\contentsline {subsubsection}{\numberline {4.4.2.11}interfacePrincipal()}{25}{subsubsection.4.4.2.11}%
+\contentsline {subsubsection}{\numberline {4.4.2.12}lerMeios()}{25}{subsubsection.4.4.2.12}%
+\contentsline {subsubsection}{\numberline {4.4.2.13}lerPedidos()}{25}{subsubsection.4.4.2.13}%
+\contentsline {subsubsection}{\numberline {4.4.2.14}listarPlanoMeio()}{25}{subsubsection.4.4.2.14}%
+\contentsline {subsubsection}{\numberline {4.4.2.15}menuMeio()}{26}{subsubsection.4.4.2.15}%
+\contentsline {subsubsection}{\numberline {4.4.2.16}menuPedido()}{26}{subsubsection.4.4.2.16}%
+\contentsline {subsubsection}{\numberline {4.4.2.17}menuPrincipal()}{26}{subsubsection.4.4.2.17}%
+\contentsline {subsubsection}{\numberline {4.4.2.18}mostraMeio()}{28}{subsubsection.4.4.2.18}%
+\contentsline {subsubsection}{\numberline {4.4.2.19}mostraMeios()}{28}{subsubsection.4.4.2.19}%
+\contentsline {subsubsection}{\numberline {4.4.2.20}mostraPedido()}{28}{subsubsection.4.4.2.20}%
+\contentsline {subsubsection}{\numberline {4.4.2.21}mostraPedidos()}{29}{subsubsection.4.4.2.21}%
+\contentsline {subsubsection}{\numberline {4.4.2.22}procuraVeiculoSuficiente()}{29}{subsubsection.4.4.2.22}%
+\contentsline {subsubsection}{\numberline {4.4.2.23}removerMeio()}{29}{subsubsection.4.4.2.23}%
+\contentsline {subsubsection}{\numberline {4.4.2.24}removerPedido()}{30}{subsubsection.4.4.2.24}%
+\contentsline {subsubsection}{\numberline {4.4.2.25}verificaAutonomia()}{30}{subsubsection.4.4.2.25}%
+\contentsline {section}{\numberline {4.5}Funcoes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{30}{section.4.5}%
+\contentsline {section}{\numberline {4.6}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c File Reference}{31}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{31}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Function Documentation}{32}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}main()}{32}{subsubsection.4.6.2.1}%
+\contentsline {chapter}{Index}{33}{section*.10}%

@@ -1,0 +1,40 @@
+\hypertarget{_estruturas_8h_source}{}\doxysection{Estruturas.\+h}
+\mbox{\hyperlink{_estruturas_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#ifndef ESTRUTURAS}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#define ESTRUTURAS}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#define TAM\_T 10 }\textcolor{comment}{//tamanho para texto}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#define TAM\_A 100 }\textcolor{comment}{//tamanho para structs}}
+\DoxyCodeLine{22 \textcolor{comment}{}typedef struct}
+\DoxyCodeLine{23 \{}
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} num, nif, tempo, distancia;}
+\DoxyCodeLine{25     \textcolor{keywordtype}{char} cod[TAM\_T];}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \} \mbox{\hyperlink{struct_pedido}{Pedido}};}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{33 \textcolor{keyword}{typedef} \textcolor{keyword}{struct}}
+\DoxyCodeLine{34 \{}
+\DoxyCodeLine{35     \textcolor{keywordtype}{int} qt\_pedidos;}
+\DoxyCodeLine{36     \mbox{\hyperlink{struct_pedido}{Pedido}} pedido[TAM\_A];}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 \} \mbox{\hyperlink{struct_pedidos}{Pedidos}};}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{44 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }}
+\DoxyCodeLine{45 \{}
+\DoxyCodeLine{46     \textcolor{keywordtype}{char} cod[TAM\_T], tipo[TAM\_T];}
+\DoxyCodeLine{47     \textcolor{keywordtype}{float} custo;}
+\DoxyCodeLine{48     \textcolor{keywordtype}{int} autonomia, id;}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 \} \mbox{\hyperlink{struct_meio}{Meio}};}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{56 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }}
+\DoxyCodeLine{57 \{}
+\DoxyCodeLine{58     \textcolor{keywordtype}{int} qt\_meios;}
+\DoxyCodeLine{59     \mbox{\hyperlink{struct_meio}{Meio}} meio[TAM\_A];}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61 \} \mbox{\hyperlink{struct_esquema}{Esquema}};}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,546 @@
+\hypertarget{_funcoes_8h}{}\doxysection{Funcoes.\+h File Reference}
+\label{_funcoes_8h}\index{Funcoes.h@{Funcoes.h}}
+
+
+Nesta biblioteca será introduzido código referente a todas as assinaturas de funções.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Estruturas.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_funcoes_8h_ae34efeafe64cb9bdcb4fcccedea45961}{existe\+Pedido}} (\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps, int num)
+\begin{DoxyCompactList}\small\item\em Espaço reservado as funções de pedidos do utilizador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_afe2b00e57b71834c0fb2a53c41c3a7c3}{mostra\+Pedidos}} (\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em Listagem de todo os pedidos de utilização. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_a6bb05e89a357480aba1a5e3a38f192f0}{mostra\+Pedido}} (\mbox{\hyperlink{struct_pedido}{Pedido}} p)
+\begin{DoxyCompactList}\small\item\em Listagem de um pedido de utilização. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_a44022ddd785b130616751c25f82ef808}{guardar\+Pedidos}} (\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em manipula o ficheiro historico.\+txt para escrita \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_adeb376a51125870bd478ef1e4221979b}{ler\+Pedidos}} (\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em manipula o ficheiro historico.\+txt para leitura \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_afc64f95d4a0e43bc94d2dec3268a6ccb}{insert\+Pedido}} (\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps, int id, \mbox{\hyperlink{struct_pedido}{Pedido}} p)
+\begin{DoxyCompactList}\small\item\em Inserção de um novo pedido de utilização. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_a0d25f0773e193749f78ef2b7703e6f01}{criar\+Pedido}} (\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em Atribuição dos valores a serem inseridos em um novo pedido de utilização. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_a851c5a86ee983c9b1b219faa3bee8333}{remover\+Pedido}} (char cod\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em Remoção de um pedido de utilização a partir do seu código. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{_funcoes_8h_a76938a67ae5b17384add6d8bd59371c3}{custo\+Pedido}} (int num, \mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em Cálculo do custo associado a um pedido de utilização a partir da indicação do seu número de ordem. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_a1f9626b83bd5a9043f86c822c65b415f}{existe\+Meio}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, char cod\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se um meio existe \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_a28340768700b88e636b0acd3caf464da}{mostra\+Meios}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Listagem dos dados de todos os meios de mobilidade elétrica. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_a0edce52d763ce54a6b84c7326d95f238}{mostra\+Meio}} (\mbox{\hyperlink{struct_meio}{Meio}} m)
+\begin{DoxyCompactList}\small\item\em Listagem dos dados de um meio de mobilidade elétrica. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_ab2859bea9fc4f9763429ef9c71f61ce6}{insert\+Meio}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, int count, \mbox{\hyperlink{struct_meio}{Meio}} m)
+\begin{DoxyCompactList}\small\item\em Inserção de um novo meio de mobilidade elétrica. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_ad6ef3887a88bcc9e6d75bda763e5a43f}{ler\+Meios}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Espaço reservado as funções que manipulam ficheiros. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_afbf223172fc5010443bb0c49597e81e8}{guardar\+Meios}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em manipula o ficheiro esquema.\+txt para escrita \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_aecd8a36b4ae5eca900824abf0bc02b6a}{criar\+Meio}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Atribuição dos valores a serem inseridos em um novo meio de mobilidade elétrica. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_8h_a10cc6d1e1f6c299f2ab773451eeb0833}{remover\+Meio}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, char cod\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Remoção de um meio de mobilidade elétrica a partir do seu código. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_ae0e8d6cb2072d2bd15683ca738794fdb}{listar\+Plano\+Meio}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps, char cod\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Listagem do plano de utilização de um determinado meio de mobilidade elétrica, a partir do seu código, por ordem crescente de número de ordem do pedido. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_pedido}{Pedido}} \mbox{\hyperlink{_funcoes_8h_a978134747cbf76b11b3dfddb06726831}{verifica\+Autonomia}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, \mbox{\hyperlink{struct_pedido}{Pedido}} p)
+\begin{DoxyCompactList}\small\item\em verifica se a autonomia de um meio é ultrapassada pela distancia de um pedido retorn pedido com codigo alterado ou nao \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{_funcoes_8h_a2738193fa2f1a5292857277d35818608}{procura\+Veiculo\+Suficiente}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, int distancia, char tipo\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Espaço reservado as funções de distribuição dos meios pelos utilizadores. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_a2b60896f2b74f82cae2533eb43a79300}{distribuir\+Meios}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em realiza uma distribuição dos meios de mobilidade pelos utilizadores \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_a29a31242c1d4a2da60a62eadc9a5dd37}{interface\+Principal}} ()
+\begin{DoxyCompactList}\small\item\em Espaço reservado as funções de menus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_adbae7627c26c03f63c44074baec717ee}{menu\+Principal}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em menu com opcoes que correspondem a interface principal \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_funcoes_8h_a36ea14233776488e0cedf8df08a5370c}\label{_funcoes_8h_a36ea14233776488e0cedf8df08a5370c}} 
+void {\bfseries interface\+Meio} ()
+\begin{DoxyCompactList}\small\item\em parte visual do menu dos meios de mobilidade \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_a9c3c447ac9e893ab538411b3bc8c8bed}{menu\+Meio}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em menu com opcoes que correspondem a interface dos meios de mobilidade \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_funcoes_8h_a210b1118a7a09ca5abfb52fcd552c3d6}\label{_funcoes_8h_a210b1118a7a09ca5abfb52fcd552c3d6}} 
+void {\bfseries interface\+Pedido} ()
+\begin{DoxyCompactList}\small\item\em parte visual do menu de pedidos do utilizador \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_8h_afcd405e7cf59c25bad27a270fb92505e}{menu\+Pedido}} (\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$ps)
+\begin{DoxyCompactList}\small\item\em menu com opcoes que correspondem a interface dos pedidos do utilizador \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Nesta biblioteca será introduzido código referente a todas as assinaturas de funções. 
+
+\begin{DoxyAuthor}{Author}
+João Apresentação (\href{mailto:a21152@alunos.ipca.pt}{\texttt{ a21152@alunos.\+ipca.\+pt}}) 
+
+Gonçalo Cunha (\href{mailto:a21145@alunos.ipca.pt}{\texttt{ a21145@alunos.\+ipca.\+pt}}) 
+
+Carlos Barbosa (\href{mailto:a21157@alunos.ipca.pt}{\texttt{ a21157@alunos.\+ipca.\+pt}})
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2022-\/01-\/22
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2022 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_funcoes_8h_aecd8a36b4ae5eca900824abf0bc02b6a}\label{_funcoes_8h_aecd8a36b4ae5eca900824abf0bc02b6a}} 
+\index{Funcoes.h@{Funcoes.h}!criarMeio@{criarMeio}}
+\index{criarMeio@{criarMeio}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{criarMeio()}{criarMeio()}}
+{\footnotesize\ttfamily void criar\+Meio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Atribuição dos valores a serem inseridos em um novo meio de mobilidade elétrica. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a0d25f0773e193749f78ef2b7703e6f01}\label{_funcoes_8h_a0d25f0773e193749f78ef2b7703e6f01}} 
+\index{Funcoes.h@{Funcoes.h}!criarPedido@{criarPedido}}
+\index{criarPedido@{criarPedido}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{criarPedido()}{criarPedido()}}
+{\footnotesize\ttfamily void criar\+Pedido (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+Atribuição dos valores a serem inseridos em um novo pedido de utilização. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a76938a67ae5b17384add6d8bd59371c3}\label{_funcoes_8h_a76938a67ae5b17384add6d8bd59371c3}} 
+\index{Funcoes.h@{Funcoes.h}!custoPedido@{custoPedido}}
+\index{custoPedido@{custoPedido}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{custoPedido()}{custoPedido()}}
+{\footnotesize\ttfamily float custo\+Pedido (\begin{DoxyParamCaption}\item[{int}]{num,  }\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+Cálculo do custo associado a um pedido de utilização a partir da indicação do seu número de ordem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & numero de ordem \\
+\hline
+{\em e} & esquema \\
+\hline
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_a2b60896f2b74f82cae2533eb43a79300}\label{_funcoes_8h_a2b60896f2b74f82cae2533eb43a79300}} 
+\index{Funcoes.h@{Funcoes.h}!distribuirMeios@{distribuirMeios}}
+\index{distribuirMeios@{distribuirMeios}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{distribuirMeios()}{distribuirMeios()}}
+{\footnotesize\ttfamily void distribuir\+Meios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+realiza uma distribuição dos meios de mobilidade pelos utilizadores 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a1f9626b83bd5a9043f86c822c65b415f}\label{_funcoes_8h_a1f9626b83bd5a9043f86c822c65b415f}} 
+\index{Funcoes.h@{Funcoes.h}!existeMeio@{existeMeio}}
+\index{existeMeio@{existeMeio}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{existeMeio()}{existeMeio()}}
+{\footnotesize\ttfamily int existe\+Meio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{char}]{cod\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se um meio existe 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em cod} & codigo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_ae34efeafe64cb9bdcb4fcccedea45961}\label{_funcoes_8h_ae34efeafe64cb9bdcb4fcccedea45961}} 
+\index{Funcoes.h@{Funcoes.h}!existePedido@{existePedido}}
+\index{existePedido@{existePedido}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{existePedido()}{existePedido()}}
+{\footnotesize\ttfamily int existe\+Pedido (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Espaço reservado as funções de pedidos do utilizador. 
+
+Verifica se um pedido existe através do seu numero de ordem
+
+
+\begin{DoxyParams}{Parameters}
+{\em ps} & pedidos \\
+\hline
+{\em num} & numero de ordem \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_afbf223172fc5010443bb0c49597e81e8}\label{_funcoes_8h_afbf223172fc5010443bb0c49597e81e8}} 
+\index{Funcoes.h@{Funcoes.h}!guardarMeios@{guardarMeios}}
+\index{guardarMeios@{guardarMeios}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{guardarMeios()}{guardarMeios()}}
+{\footnotesize\ttfamily int guardar\+Meios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+manipula o ficheiro esquema.\+txt para escrita 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a44022ddd785b130616751c25f82ef808}\label{_funcoes_8h_a44022ddd785b130616751c25f82ef808}} 
+\index{Funcoes.h@{Funcoes.h}!guardarPedidos@{guardarPedidos}}
+\index{guardarPedidos@{guardarPedidos}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{guardarPedidos()}{guardarPedidos()}}
+{\footnotesize\ttfamily int guardar\+Pedidos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+manipula o ficheiro historico.\+txt para escrita 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_ab2859bea9fc4f9763429ef9c71f61ce6}\label{_funcoes_8h_ab2859bea9fc4f9763429ef9c71f61ce6}} 
+\index{Funcoes.h@{Funcoes.h}!insertMeio@{insertMeio}}
+\index{insertMeio@{insertMeio}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{insertMeio()}{insertMeio()}}
+{\footnotesize\ttfamily int insert\+Meio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{int}]{id,  }\item[{\mbox{\hyperlink{struct_meio}{Meio}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Inserção de um novo meio de mobilidade elétrica. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em id} & identificador do esquema \\
+\hline
+{\em cod} & codigo \\
+\hline
+{\em tipo} & \\
+\hline
+{\em custo} & \\
+\hline
+{\em autonomia} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_afc64f95d4a0e43bc94d2dec3268a6ccb}\label{_funcoes_8h_afc64f95d4a0e43bc94d2dec3268a6ccb}} 
+\index{Funcoes.h@{Funcoes.h}!insertPedido@{insertPedido}}
+\index{insertPedido@{insertPedido}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{insertPedido()}{insertPedido()}}
+{\footnotesize\ttfamily int insert\+Pedido (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps,  }\item[{int}]{id,  }\item[{\mbox{\hyperlink{struct_pedido}{Pedido}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Inserção de um novo pedido de utilização. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ps} & pedidos \\
+\hline
+{\em id} & identificador do pedido \\
+\hline
+{\em nif} & nif do utilizador \\
+\hline
+{\em cod} & codigo \\
+\hline
+{\em tempo} & \\
+\hline
+{\em distancia} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_a29a31242c1d4a2da60a62eadc9a5dd37}\label{_funcoes_8h_a29a31242c1d4a2da60a62eadc9a5dd37}} 
+\index{Funcoes.h@{Funcoes.h}!interfacePrincipal@{interfacePrincipal}}
+\index{interfacePrincipal@{interfacePrincipal}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{interfacePrincipal()}{interfacePrincipal()}}
+{\footnotesize\ttfamily void interface\+Principal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Espaço reservado as funções de menus. 
+
+parte visual do menu principal \mbox{\Hypertarget{_funcoes_8h_ad6ef3887a88bcc9e6d75bda763e5a43f}\label{_funcoes_8h_ad6ef3887a88bcc9e6d75bda763e5a43f}} 
+\index{Funcoes.h@{Funcoes.h}!lerMeios@{lerMeios}}
+\index{lerMeios@{lerMeios}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{lerMeios()}{lerMeios()}}
+{\footnotesize\ttfamily int ler\+Meios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Espaço reservado as funções que manipulam ficheiros. 
+
+manipula o ficheiro esquema.\+txt para leitura
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_adeb376a51125870bd478ef1e4221979b}\label{_funcoes_8h_adeb376a51125870bd478ef1e4221979b}} 
+\index{Funcoes.h@{Funcoes.h}!lerPedidos@{lerPedidos}}
+\index{lerPedidos@{lerPedidos}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{lerPedidos()}{lerPedidos()}}
+{\footnotesize\ttfamily int ler\+Pedidos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+manipula o ficheiro historico.\+txt para leitura 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_ae0e8d6cb2072d2bd15683ca738794fdb}\label{_funcoes_8h_ae0e8d6cb2072d2bd15683ca738794fdb}} 
+\index{Funcoes.h@{Funcoes.h}!listarPlanoMeio@{listarPlanoMeio}}
+\index{listarPlanoMeio@{listarPlanoMeio}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{listarPlanoMeio()}{listarPlanoMeio()}}
+{\footnotesize\ttfamily void listar\+Plano\+Meio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps,  }\item[{char}]{cod\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Listagem do plano de utilização de um determinado meio de mobilidade elétrica, a partir do seu código, por ordem crescente de número de ordem do pedido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em ps} & pedidos \\
+\hline
+{\em cod} & codigo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a9c3c447ac9e893ab538411b3bc8c8bed}\label{_funcoes_8h_a9c3c447ac9e893ab538411b3bc8c8bed}} 
+\index{Funcoes.h@{Funcoes.h}!menuMeio@{menuMeio}}
+\index{menuMeio@{menuMeio}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{menuMeio()}{menuMeio()}}
+{\footnotesize\ttfamily void menu\+Meio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+menu com opcoes que correspondem a interface dos meios de mobilidade 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & \\
+\hline
+{\em ps} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_afcd405e7cf59c25bad27a270fb92505e}\label{_funcoes_8h_afcd405e7cf59c25bad27a270fb92505e}} 
+\index{Funcoes.h@{Funcoes.h}!menuPedido@{menuPedido}}
+\index{menuPedido@{menuPedido}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{menuPedido()}{menuPedido()}}
+{\footnotesize\ttfamily void menu\+Pedido (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+menu com opcoes que correspondem a interface dos pedidos do utilizador 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & \\
+\hline
+{\em ps} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_adbae7627c26c03f63c44074baec717ee}\label{_funcoes_8h_adbae7627c26c03f63c44074baec717ee}} 
+\index{Funcoes.h@{Funcoes.h}!menuPrincipal@{menuPrincipal}}
+\index{menuPrincipal@{menuPrincipal}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{menuPrincipal()}{menuPrincipal()}}
+{\footnotesize\ttfamily void menu\+Principal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+menu com opcoes que correspondem a interface principal 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a0edce52d763ce54a6b84c7326d95f238}\label{_funcoes_8h_a0edce52d763ce54a6b84c7326d95f238}} 
+\index{Funcoes.h@{Funcoes.h}!mostraMeio@{mostraMeio}}
+\index{mostraMeio@{mostraMeio}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{mostraMeio()}{mostraMeio()}}
+{\footnotesize\ttfamily void mostra\+Meio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_meio}{Meio}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Listagem dos dados de um meio de mobilidade elétrica. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & meio de mobilidade \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a28340768700b88e636b0acd3caf464da}\label{_funcoes_8h_a28340768700b88e636b0acd3caf464da}} 
+\index{Funcoes.h@{Funcoes.h}!mostraMeios@{mostraMeios}}
+\index{mostraMeios@{mostraMeios}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{mostraMeios()}{mostraMeios()}}
+{\footnotesize\ttfamily void mostra\+Meios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Listagem dos dados de todos os meios de mobilidade elétrica. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a6bb05e89a357480aba1a5e3a38f192f0}\label{_funcoes_8h_a6bb05e89a357480aba1a5e3a38f192f0}} 
+\index{Funcoes.h@{Funcoes.h}!mostraPedido@{mostraPedido}}
+\index{mostraPedido@{mostraPedido}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{mostraPedido()}{mostraPedido()}}
+{\footnotesize\ttfamily void mostra\+Pedido (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_pedido}{Pedido}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Listagem de um pedido de utilização. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & pedido \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_afe2b00e57b71834c0fb2a53c41c3a7c3}\label{_funcoes_8h_afe2b00e57b71834c0fb2a53c41c3a7c3}} 
+\index{Funcoes.h@{Funcoes.h}!mostraPedidos@{mostraPedidos}}
+\index{mostraPedidos@{mostraPedidos}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{mostraPedidos()}{mostraPedidos()}}
+{\footnotesize\ttfamily void mostra\+Pedidos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+Listagem de todo os pedidos de utilização. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a2738193fa2f1a5292857277d35818608}\label{_funcoes_8h_a2738193fa2f1a5292857277d35818608}} 
+\index{Funcoes.h@{Funcoes.h}!procuraVeiculoSuficiente@{procuraVeiculoSuficiente}}
+\index{procuraVeiculoSuficiente@{procuraVeiculoSuficiente}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{procuraVeiculoSuficiente()}{procuraVeiculoSuficiente()}}
+{\footnotesize\ttfamily char $\ast$ procura\+Veiculo\+Suficiente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{int}]{distancia,  }\item[{char}]{tipo\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Espaço reservado as funções de distribuição dos meios pelos utilizadores. 
+
+procura um veiculo com autonomia suficiente para uma determinada distancia a percorrer retorna o novo codigo 
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em distancia} & \\
+\hline
+{\em tipo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_a10cc6d1e1f6c299f2ab773451eeb0833}\label{_funcoes_8h_a10cc6d1e1f6c299f2ab773451eeb0833}} 
+\index{Funcoes.h@{Funcoes.h}!removerMeio@{removerMeio}}
+\index{removerMeio@{removerMeio}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{removerMeio()}{removerMeio()}}
+{\footnotesize\ttfamily int remover\+Meio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{char}]{cod\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Remoção de um meio de mobilidade elétrica a partir do seu código. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em cod} & codigo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcoes_8h_a851c5a86ee983c9b1b219faa3bee8333}\label{_funcoes_8h_a851c5a86ee983c9b1b219faa3bee8333}} 
+\index{Funcoes.h@{Funcoes.h}!removerPedido@{removerPedido}}
+\index{removerPedido@{removerPedido}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{removerPedido()}{removerPedido()}}
+{\footnotesize\ttfamily int remover\+Pedido (\begin{DoxyParamCaption}\item[{char}]{cod\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{struct_pedidos}{Pedidos}} $\ast$}]{ps }\end{DoxyParamCaption})}
+
+
+
+Remoção de um pedido de utilização a partir do seu código. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cod} & codigo \\
+\hline
+{\em ps} & pedidos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcoes_8h_a978134747cbf76b11b3dfddb06726831}\label{_funcoes_8h_a978134747cbf76b11b3dfddb06726831}} 
+\index{Funcoes.h@{Funcoes.h}!verificaAutonomia@{verificaAutonomia}}
+\index{verificaAutonomia@{verificaAutonomia}!Funcoes.h@{Funcoes.h}}
+\doxysubsubsection{\texorpdfstring{verificaAutonomia()}{verificaAutonomia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_pedido}{Pedido}} verifica\+Autonomia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_esquema}{Esquema}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_pedido}{Pedido}}}]{p }\end{DoxyParamCaption})}
+
+
+
+verifica se a autonomia de um meio é ultrapassada pela distancia de um pedido retorn pedido com codigo alterado ou nao 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & esquema \\
+\hline
+{\em p} & pedido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{struct_pedido}{Pedido}} 
+\end{DoxyReturn}

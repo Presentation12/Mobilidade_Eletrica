@@ -1,0 +1,51 @@
+\hypertarget{_funcoes_8h_source}{}\doxysection{Funcoes.\+h}
+\mbox{\hyperlink{_funcoes_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#ifndef FUNCOES}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#define FUNCOES}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <stdio.h>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_estruturas_8h}{Estruturas.h}}"{}}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#pragma region ASSINATURAS PEDIDO}}
+\DoxyCodeLine{20 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_ae34efeafe64cb9bdcb4fcccedea45961}{existePedido}}(\mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps, \textcolor{keywordtype}{int} num);}
+\DoxyCodeLine{21 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_afe2b00e57b71834c0fb2a53c41c3a7c3}{mostraPedidos}}(\mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{22 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a6bb05e89a357480aba1a5e3a38f192f0}{mostraPedido}}(\mbox{\hyperlink{struct_pedido}{Pedido}} p);}
+\DoxyCodeLine{23 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_a44022ddd785b130616751c25f82ef808}{guardarPedidos}}(\mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{24 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_adeb376a51125870bd478ef1e4221979b}{lerPedidos}}(\mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{25 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_afc64f95d4a0e43bc94d2dec3268a6ccb}{insertPedido}}(\mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps, \textcolor{keywordtype}{int} \textcolor{keywordtype}{id}, \mbox{\hyperlink{struct_pedido}{Pedido}} p);}
+\DoxyCodeLine{26 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a0d25f0773e193749f78ef2b7703e6f01}{criarPedido}}(\mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{27 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_a851c5a86ee983c9b1b219faa3bee8333}{removerPedido}}(\textcolor{keywordtype}{char} cod[], \mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{28 \textcolor{keywordtype}{float} \mbox{\hyperlink{_funcoes_8h_a76938a67ae5b17384add6d8bd59371c3}{custoPedido}}(\textcolor{keywordtype}{int} num, \mbox{\hyperlink{struct_esquema}{Esquema}} *e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#pragma endregion}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#pragma region ASSINATURAS MEIO}}
+\DoxyCodeLine{32 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_a1f9626b83bd5a9043f86c822c65b415f}{existeMeio}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \textcolor{keywordtype}{char} cod[]);}
+\DoxyCodeLine{33 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a28340768700b88e636b0acd3caf464da}{mostraMeios}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e);}
+\DoxyCodeLine{34 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a0edce52d763ce54a6b84c7326d95f238}{mostraMeio}}(\mbox{\hyperlink{struct_meio}{Meio}} m);}
+\DoxyCodeLine{35 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_ab2859bea9fc4f9763429ef9c71f61ce6}{insertMeio}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \textcolor{keywordtype}{int} count, \mbox{\hyperlink{struct_meio}{Meio}} m);}
+\DoxyCodeLine{36 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_ad6ef3887a88bcc9e6d75bda763e5a43f}{lerMeios}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e);}
+\DoxyCodeLine{37 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_afbf223172fc5010443bb0c49597e81e8}{guardarMeios}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e);}
+\DoxyCodeLine{38 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_aecd8a36b4ae5eca900824abf0bc02b6a}{criarMeio}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e);}
+\DoxyCodeLine{39 \textcolor{keywordtype}{int} \mbox{\hyperlink{_funcoes_8h_a10cc6d1e1f6c299f2ab773451eeb0833}{removerMeio}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \textcolor{keywordtype}{char} cod[]);}
+\DoxyCodeLine{40 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_ae0e8d6cb2072d2bd15683ca738794fdb}{listarPlanoMeio}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps, \textcolor{keywordtype}{char} cod[]);}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#pragma endregion}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#pragma region ASSISNATURAS AUTONOMIA}}
+\DoxyCodeLine{44 \mbox{\hyperlink{struct_pedido}{Pedido}} \mbox{\hyperlink{_funcoes_8h_a978134747cbf76b11b3dfddb06726831}{verificaAutonomia}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \mbox{\hyperlink{struct_pedido}{Pedido}} p);}
+\DoxyCodeLine{45 \textcolor{keywordtype}{char} *\mbox{\hyperlink{_funcoes_8h_a2738193fa2f1a5292857277d35818608}{procuraVeiculoSuficiente}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \textcolor{keywordtype}{int} distancia, \textcolor{keywordtype}{char} tipo[]);}
+\DoxyCodeLine{46 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a2b60896f2b74f82cae2533eb43a79300}{distribuirMeios}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#pragma endregion}}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#pragma region ASSINATURAS MENU}}
+\DoxyCodeLine{50 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a29a31242c1d4a2da60a62eadc9a5dd37}{interfacePrincipal}}();}
+\DoxyCodeLine{51 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_adbae7627c26c03f63c44074baec717ee}{menuPrincipal}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{52 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a36ea14233776488e0cedf8df08a5370c}{interfaceMeio}}();}
+\DoxyCodeLine{53 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a9c3c447ac9e893ab538411b3bc8c8bed}{menuMeio}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{54 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_a210b1118a7a09ca5abfb52fcd552c3d6}{interfacePedido}}();}
+\DoxyCodeLine{55 \textcolor{keywordtype}{void} \mbox{\hyperlink{_funcoes_8h_afcd405e7cf59c25bad27a270fb92505e}{menuPedido}}(\mbox{\hyperlink{struct_esquema}{Esquema}} *e, \mbox{\hyperlink{struct_pedidos}{Pedidos}} *ps);}
+\DoxyCodeLine{56 \textcolor{preprocessor}{\#pragma endregion}}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
